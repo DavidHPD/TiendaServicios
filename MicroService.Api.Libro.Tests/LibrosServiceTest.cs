@@ -97,7 +97,7 @@ namespace MicroService.Api.Libro.Tests
         [Fact]
         public async void SaveBook() {
 
-            //Este tes es para UnitTest Libro
+
             var options = new DbContextOptionsBuilder<ContextoLibreria>()
                 .UseInMemoryDatabase(databaseName: "BaseDatosLibro")
                 .Options;
